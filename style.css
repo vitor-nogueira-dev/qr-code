@@ -14,7 +14,7 @@
   font-family: 'Outfit', sans-serif;
 }
 
-body {
+main {
   font-size: 15px;
   height: 100vh;
   display: flex;
@@ -23,7 +23,7 @@ body {
   background-color: var(--color-light-gray);
 }
 
-div {
+.container {
   width: 307px;
   height: 483px;
 
@@ -42,13 +42,13 @@ div {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-img {
+.image {
   width: 279px;
 
   border-radius: 10px;
 }
 
-h1 {
+.title {
   width: 260px;
 
   color: var(--color-gDark-blue);
@@ -57,7 +57,7 @@ h1 {
   font-weight: 700;
 }
 
-p {
+.paragraph {
   width: 260px;
 
   color: var(--color-grayish-blue);

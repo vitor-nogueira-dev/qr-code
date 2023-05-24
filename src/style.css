@@ -48,3 +48,11 @@ img {
   border-radius: 10px;
 }
 
+h1 {
+  width: 260px;
+
+  color: var(--color-gDark-blue);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+}

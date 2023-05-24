@@ -16,22 +16,29 @@
 
 body {
   font-size: 15px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+
+  background-color: var(--color-light-gray);
 }
 
-/* media query para mobile e desktop 
-- Mobile: 375px
-- Desktop: 1440px */
+div {
+  width: 307px;
+  height: 483px;
 
-@media (min-width: 375px) {
-  html {
-    font-size: 87.5%;
-  }
+  margin: auto;
+  border-radius: 20px;
+
+  background-color: var(--color-white);
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+
+  padding-bottom: 15px;
+
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-
-@media (min-width: 1440px) {
-  html {
-    font-size: 100%;
-  }
-}
-
 

@@ -5,7 +5,7 @@ Este é um projeto de solução para o desafio do componente de código QR no Fr
 Este projeto é uma solução para o desafio do componente de código QR no Frontend Mentor. O objetivo do desafio é aprimorar as habilidades de codificação, criando um projeto realista.
 
 ### Projeto concluído
-![Qr Code](/src/images/project.png)
+![Qr Code](/images/project.png)
 
 ### Meu Processo 
 1. Marcação HTML5 semântica
